@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height:650px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border:1px solid white;
+    background-color: aliceblue;
+    height:600px;
+    width:330px;
+    border-radius: 15px;
+    
+}
+img{
+    
+    height:255px;
+    width:331px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+p{
+    margin-left:20px;
+    margin-top:20px;
+    font-family:Montserrat;
+    color:hsl(228, 12%, 48%); 
+    font-size:14px;
+}
+#text{
+    margin-left:20px;
+    margin-top:10px;
+    font-family:Fraunces;
+    color:hsl(212, 21%, 14%) ;
+}
+#description{
+    font-size:14px;
+     margin-right:18px; 
+}
+.price{
+    padding-left: 20px;
+    padding-top:15px;
+    margin-top:10px;
+    display:flex;
+}
+#realprice{
+    font-family:Fraunces;
+    font-size:30px;
+    color: hsl(158, 36%, 37%);
+}
+#discount{
+    margin-top:12px;
+    font-size:13px;
+}
+button{
+    height:40px;
+    width:290px;
+    background-color:hsl(158, 36%, 37%) ;
+    margin-left:20px;
+    margin-top:20px;
+    border:1px solid hsl(158, 36%, 37%);
+    border-radius: 10px;
+    color:white;
+    font-family:Montserrat;
+    font-weight: 700;
+}
+#cart{
+    height:12px;
+    width:12px;
+    padding-right:0px;
+}
+button:hover{
+    background-color: hsl(158, 97%, 14%);
+    cursor: pointer;
+}
